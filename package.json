@@ -1,0 +1,10 @@
+{
+  "description": "VFX Reference Platform Python",
+  "displayName": "VFX Reference Platform Python",
+  "name": "com.cpredmann.python.vfxplatform",
+  "unity": "2020.1",
+  "version": "2021.0.0",
+  "dependencies": {
+    "com.unity.scripting.python": "4.0.0-exp.5"
+  }
+}
