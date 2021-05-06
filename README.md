@@ -7,8 +7,10 @@ Windows Python modules for the Vfx Reference Platform, installable as a package 
 * Alembic 1.7.16
 * OpenColorIO 2.0.0
 * OpenImageIO 2.2.12
-* USD 21.02
 * oslquery 1.11.12
 * MaterialX 1.37.4
+* USD 21.02
 ## Usage
 After installing the package (Python package dependency is also installed), add `Packages/com.cpredmann.python.vfxplatform/lib~/python3.7/site-packages` to the Python Project Setting and restart Unity for changes to take effect
+## Known issues
+USD will not work when installed via the Unity Package Manager GUI as a Git url, since it does not keep Windows symlinks.  Cloning with `core.symlinks=true` will get it working, although the PXR_PLUGIN_PATH will not be set, so only core functionality will work
