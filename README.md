@@ -11,4 +11,4 @@ Windows Python modules for the Vfx Reference Platform, installable as a package 
 * oslquery 1.11.12
 * MaterialX 1.37.4
 ## Usage
-After installing the package (Python package dependency is also installed), add Packages/com.cpredmann.python.vfxplatform/lib~/python3.7/site-packages to the Python Project Setting and restart Unity for changes to take effect
+After installing the package (Python package dependency is also installed), add `Packages/com.cpredmann.python.vfxplatform/lib~/python3.7/site-packages` to the Python Project Setting and restart Unity for changes to take effect
