@@ -1,0 +1,20 @@
+{
+    "name": "Unity.VfxPlatform.Python.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:abd0983879a76104092bd43f426472fc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
