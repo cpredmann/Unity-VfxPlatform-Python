@@ -13,4 +13,4 @@ Windows Python modules for the Vfx Reference Platform, installable as a package 
 ## Usage
 After installing the package (Python package dependency is also installed), add `Packages/com.cpredmann.python.vfxplatform/lib~/python3.7/site-packages` to the Python Project Setting and restart Unity for changes to take effect
 ## Known issues
-USD will not work when installed via the Unity Package Manager GUI as a Git url, since it does not keep Windows symlinks.  Cloning with `core.symlinks=true` will get it working, although the PXR_PLUGIN_PATH will not be set, so only core functionality will work
+USD will not work when installed via the Unity Package Manager GUI as a Git url, since it does not keep Windows symlinks.  Cloning with `core.symlinks=true` will get it working, although plugins will not work
